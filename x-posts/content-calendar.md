@@ -17,21 +17,21 @@
 
 - [x] git worktreeで3〜5セッション並列実行 — 最大の生産性向上策 (2026-03-30)
 - [ ] voice dictationで話す速度はタイピングの3倍 — 詳細なプロンプトが書ける
-- [ ] Scheduled Tasks: /loop でローカル定期実行、/schedule でクラウド実行（マシンがオフでも動く）
+- [x] Scheduled Tasks: /loop でローカル定期実行、/schedule でクラウド実行（マシンがオフでも動く） (2026-04-20)
 - [ ] Remote Control: /rc でスマホ・タブレットからローカルセッションを継続
 
 ### Prompting
 
 - [x] plan modeで計画に全エネルギーを注ぎ、1-shotで実装 (2026-03-31)
 - [ ] "Prove to me this works" — mainとfeatureブランチの差分を比較させる
-- [ ] "Grill me on these changes" — Claudeにレビュアーをやらせる
+- [x] "Grill me on these changes" — Claudeにレビュアーをやらせる (2026-04-21)
 - [ ] "Knowing everything you know now, implement the elegant solution" — やり直しの指示
 
 ### Memory / Context
 
 - [x] CLAUDE.mdに投資する — ミスのたびにルールを書かせ、ミス率が下がるまで反復 (2026-04-01)
 - [ ] @path importでCLAUDE.mdを分割管理 — トピックごとにルールファイルを切り出す
-- [ ] /compact を50%コンテキスト時点で手動実行 — コンテキスト枯渇を防ぐ
+- [x] /compact を50%コンテキスト時点で手動実行 — コンテキスト枯渇を防ぐ (2026-04-22)
 - [ ] output style "Explanatory" で新しいコードベースを学ぶ
 
 ### Skills
@@ -39,12 +39,12 @@
 - [x] Skillの9カテゴリ分類 — Gotchasセクションが最も信号が高い (2026-04-02)
 - [ ] Skillはフォルダ全体がコンテキストエンジニアリング — progressive disclosureを活用
 - [ ] on-demand hooks: /careful, /freeze — 必要なときだけ有効化するフック
-- [ ] Skillのdescriptionフィールドはモデル向けのトリガー条件を書く
+- [x] Skillのdescriptionフィールドはモデル向けのトリガー条件を書く (2026-04-23)
 
 ### Subagents
 
 - [x] test time compute — 複数コンテキストウィンドウで相関しないバグ検出 (2026-04-03)
-- [ ] Agent vs Command vs Skill の使い分け — 自動起動・コンテキスト分離の違い
+- [x] Agent vs Command vs Skill の使い分け — 自動起動・コンテキスト分離の違い (2026-04-24)
 - [ ] "use subagents"を付けるだけで並列コンテキストが立ち上がる
 - [ ] permissionリクエストをOpus経由でフック — 安全なものを自動承認
 
@@ -65,12 +65,12 @@
 ### Hooks
 
 - [ ] Hookの4つの実行タイプ: bash, http, prompt, agent
-- [ ] PreToolUse フックで git commit 前に独自バリデーション
+- [x] PreToolUse フックで git commit 前に独自バリデーション (2026-04-25)
 - [ ] Stop フックでClaudeが止まったとき自動で続行させる
 - [ ] hooks-config.jsonをチームで共有、local.jsonで個人上書き
 
 ### MCP
 
-- [ ] Slack MCPでバグスレッドを貼り付けて "fix" と言うだけ — コンテキストスイッチゼロ
+- [x] Slack MCPでバグスレッドを貼り付けて "fix" と言うだけ — コンテキストスイッチゼロ (2026-04-26)
 - [ ] BigQuery MCPで自然言語からSQLを6ヶ月書いていない
 - [ ] .mcp.jsonとsettings.jsonの使い分け — プロジェクト共有 vs 個人設定
